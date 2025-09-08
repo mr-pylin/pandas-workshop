@@ -1,0 +1,34 @@
+[project]
+name = "pandas-workshop"
+version = "0.1.0"
+description = "An essential guide to mastering data manipulation with Pandas, covering core to advanced techniques for managing, analyzing, and transforming structured data in data science and machine learning"
+authors = [
+    {name = "Amirhossein Heydari", email =  "amirhosseinheydari78@gmail.com"}
+]
+maintainers = [
+    {name = "Amirhossein Heydari", email =  "amirhosseinheydari78@gmail.com"}
+]
+keywords = ["pandas", "data frames", "structured data", "data cleaning", "data science"]
+readme = "README.md"
+license = "Apache-2.0"
+license-files = [
+    "LICENSE",
+]
+requires-python = ">=3.13.7"
+dependencies = [
+    "numpy>=2.3.2,<4.0.0",
+    "pandas>=2.3.2,<4.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1,<7.0.0",
+    # "ipywidgets>=8.1.7,<9.0.0",
+]
+
+[project.urls]
+Repository = "https://github.com/mr-pylin/pandas-workshop"
+MyHomepage = "https://mr-pylin.github.io"
+
+[tool.black]
+line-length = 120
