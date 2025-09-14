@@ -16,6 +16,7 @@ An essential guide to mastering data manipulation with Pandas, covering core to 
 
 1. [**Introduction to Pandas**](./code/01-introduction.ipynb)
 1. [**Data Structures**](./code/02-data-structures.ipynb)
+1. [**Data Input and Output**](./code/03-data-io.ipynb)
 
 ## 📋 Prerequisites
 
@@ -33,8 +34,12 @@ This project requires Python **v3.10** or higher. It was developed and tested us
 ### 📝 List of Dependencies
 
 [![ipykernel](https://img.shields.io/badge/ipykernel-6.30.1-ff69b4)](https://pypi.org/project/ipykernel/6.30.1/)
-[![numpy](https://img.shields.io/badge/numpy-2.3.2-orange)](https://pypi.org/project/numpy/2.3.2/)
+[![numpy](https://img.shields.io/badge/numpy-2.3.3-orange)](https://pypi.org/project/numpy/2.3.3/)
 [![pandas](https://img.shields.io/badge/pandas-2.3.2-yellow)](https://pypi.org/project/pandas/2.3.2/)
+[![openpyxl](https://img.shields.io/badge/openpyxl-3.1.5-lightblue)](https://pypi.org/project/openpyxl/3.1.5/)
+[![pyarrow](https://img.shields.io/badge/pyarrow-21.0.0-purple)](https://pypi.org/project/pyarrow/21.0.0/)
+[![sqlalchemy](https://img.shields.io/badge/sqlalchemy-2.0.43-green)](https://pypi.org/project/SQLAlchemy/2.0.43/)
+[![tables](https://img.shields.io/badge/tables-3.10.2-red)](https://pypi.org/project/tables/3.10.2/)
 <!-- [![ipywidgets](https://img.shields.io/badge/ipywidgets-8.1.5-ff6347)](https://pypi.org/project/ipywidgets/8.1.5/) -->
 
 ### 📦 Installing Dependencies
@@ -45,7 +50,8 @@ This project requires Python **v3.10** or higher. It was developed and tested us
 - To install exact dependency versions specified in [**uv.lock**](./uv.lock) for consistent environments **without** installing the current project as a package:
 
   ```bash
-  uv sync --no-install-project
+  uv sync --no-install-project                     # Install core dependencies
+  uv sync --no-install-project --extra io_support  # Install core + optional dependencies
   ```
 
 #### 📦 Method 2: Pip
@@ -55,6 +61,8 @@ This project requires Python **v3.10** or higher. It was developed and tested us
   ```bash
   pip install -r requirements.txt
   ```
+
+- **Note**: The [**requirements.txt**](./requirements.txt) includes complete installation of dependencies. Comment `openpyxl`, `pyarrow`, `sqlalchemy` and `tables` in order to install only core dependencies.
 
 ### 🛠️ Usage Instructions
 
