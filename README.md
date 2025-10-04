@@ -17,6 +17,7 @@ An essential guide to mastering data manipulation with Pandas, covering core to 
 1. [**Introduction to Pandas**](./code/01-introduction.ipynb)
 1. [**Data Structures**](./code/02-data-structures.ipynb)
 1. [**Data Input and Output**](./code/03-data-io.ipynb)
+1. [**Indexing and Selection**](./code/04-indexing-selection.ipynb)
 
 ## 📋 Prerequisites
 
