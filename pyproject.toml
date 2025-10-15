@@ -21,11 +21,20 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-io-support = [
+io = [
     "openpyxl>=3.1.5,<4.0.0",     # For reading/writing Excel files (.xlsx)
     "pyarrow>=21.0.0,<22.0.0",    # For reading/writing Parquet files
     "sqlalchemy>=2.0.43,<3.0.0",  # For SQL database integration
     "tables>=3.10.2,<4.0.0",      # For reading/writing HDF5 files via PyTables
+]
+
+plot = [
+    "matplotlib>=3.10.6,<4.0.0",
+    "plotly>=6.3.1,<7.0.0",
+]
+
+science = [
+    "scipy>=1.16.2,<2.0.0",  # For numerical routines, interpolation, optimization, etc.
 ]
 
 [dependency-groups]

@@ -35,10 +35,13 @@ This project requires Python **v3.10** or higher. It was developed and tested us
 ### 📝 List of Dependencies
 
 [![ipykernel](https://img.shields.io/badge/ipykernel-6.30.1-ff69b4)](https://pypi.org/project/ipykernel/6.30.1/)
+[![matplotlib](https://img.shields.io/badge/matplotlib-3.10.6-blue)](https://pypi.org/project/matplotlib/3.10.6/)
 [![numpy](https://img.shields.io/badge/numpy-2.3.3-orange)](https://pypi.org/project/numpy/2.3.3/)
-[![pandas](https://img.shields.io/badge/pandas-2.3.2-yellow)](https://pypi.org/project/pandas/2.3.2/)
 [![openpyxl](https://img.shields.io/badge/openpyxl-3.1.5-lightblue)](https://pypi.org/project/openpyxl/3.1.5/)
+[![pandas](https://img.shields.io/badge/pandas-2.3.3-yellow)](https://pypi.org/project/pandas/2.3.3/)
+[![plotly](https://img.shields.io/badge/plotly-6.3.1-lightgrey)](https://pypi.org/project/plotly/6.3.1/)
 [![pyarrow](https://img.shields.io/badge/pyarrow-21.0.0-purple)](https://pypi.org/project/pyarrow/21.0.0/)
+[![scipy](https://img.shields.io/badge/scipy-1.16.2-darkblue)](https://pypi.org/project/scipy/1.16.2/)
 [![sqlalchemy](https://img.shields.io/badge/sqlalchemy-2.0.43-green)](https://pypi.org/project/SQLAlchemy/2.0.43/)
 [![tables](https://img.shields.io/badge/tables-3.10.2-red)](https://pypi.org/project/tables/3.10.2/)
 <!-- [![ipywidgets](https://img.shields.io/badge/ipywidgets-8.1.5-ff6347)](https://pypi.org/project/ipywidgets/8.1.5/) -->
@@ -51,8 +54,8 @@ This project requires Python **v3.10** or higher. It was developed and tested us
 - To install exact dependency versions specified in [**uv.lock**](./uv.lock) for consistent environments **without** installing the current project as a package:
 
   ```bash
-  uv sync --no-install-project                     # Install core dependencies
-  uv sync --no-install-project --extra io_support  # Install core + optional dependencies
+  uv sync --no-install-project               # Install core dependencies
+  uv sync --no-install-project --all-extras  # Install core + all optional dependencies
   ```
 
 #### 📦 Method 2: Pip
@@ -63,7 +66,7 @@ This project requires Python **v3.10** or higher. It was developed and tested us
   pip install -r requirements.txt
   ```
 
-- **Note**: The [**requirements.txt**](./requirements.txt) includes complete installation of dependencies. Comment `openpyxl`, `pyarrow`, `sqlalchemy` and `tables` in order to install only core dependencies.
+- **Note**: The [**requirements.txt**](./requirements.txt) includes complete installation of dependencies. Comment `matplotlib`, `plotlib`, `openpyxl`, `pyarrow`, `sqlalchemy` and `tables` in order to install only core dependencies.
 
 ### 🛠️ Usage Instructions
 
@@ -112,7 +115,7 @@ This project requires Python **v3.10** or higher. It was developed and tested us
   - Official sites: [opencv.org](https://opencv.org/) | [scikit-image.org](https://scikit-image.org/) | [pillow.readthedocs.io](https://pillow.readthedocs.io/en/stable/index.html) | [scipy.org](https://scipy.org/)
   - My Media Processing Workshop: [**github.com/mr-pylin/media-processing-workshop**](https://github.com/mr-pylin/media-processing-workshop)
 
- 🔍 Find Me
+## 🔍 Find Me
 
 Any mistakes, suggestions, or contributions? Feel free to reach out to me at:
 
