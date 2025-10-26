@@ -1,8 +1,8 @@
 # pandas-workshop
 
 [![License](https://img.shields.io/github/license/mr-pylin/pandas-workshop?color=blue)](https://github.com/mr-pylin/pandas-workshop/blob/main/LICENSE)
-[![Python Version](https://img.shields.io/badge/Python-3.13.7-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3137/)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/5da520bc0f0c4d30866d2864639e3d7f)](https://app.codacy.com/gh/mr-pylin/pandas-workshop/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Python Version](https://img.shields.io/badge/Python-3.13.9-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3137/)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0843bff4f1494209a528380dca88999a)](https://app.codacy.com/gh/mr-pylin/pandas-workshop/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Code Style](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/psf/black)
 ![Repo Size](https://img.shields.io/github/repo-size/mr-pylin/pandas-workshop?color=lightblue)
 ![Last Updated](https://img.shields.io/github/last-commit/mr-pylin/pandas-workshop?color=orange)
@@ -30,21 +30,20 @@ An essential guide to mastering data manipulation with Pandas, covering core to 
 
 ## ⚙️ Setup
 
-This project requires Python **v3.10** or higher. It was developed and tested using Python **v3.13.7**. If you encounter issues running the specified version of dependencies, consider using this version of Python.
+This project requires Python **v3.10** or higher. It was developed and tested using Python **v3.13.9**. If you encounter issues running the specified version of dependencies, consider using this version of Python.
 
 ### 📝 List of Dependencies
 
-[![ipykernel](https://img.shields.io/badge/ipykernel-6.30.1-ff69b4)](https://pypi.org/project/ipykernel/6.30.1/)
-[![matplotlib](https://img.shields.io/badge/matplotlib-3.10.6-blue)](https://pypi.org/project/matplotlib/3.10.6/)
-[![numpy](https://img.shields.io/badge/numpy-2.3.3-orange)](https://pypi.org/project/numpy/2.3.3/)
+[![ipykernel](https://img.shields.io/badge/ipykernel-7.0.1-ff69b4)](https://pypi.org/project/ipykernel/7.0.1/)
+[![matplotlib](https://img.shields.io/badge/matplotlib-3.10.7-blue)](https://pypi.org/project/matplotlib/3.10.7/)
+[![numpy](https://img.shields.io/badge/numpy-2.3.4-orange)](https://pypi.org/project/numpy/2.3.4/)
 [![openpyxl](https://img.shields.io/badge/openpyxl-3.1.5-lightblue)](https://pypi.org/project/openpyxl/3.1.5/)
 [![pandas](https://img.shields.io/badge/pandas-2.3.3-yellow)](https://pypi.org/project/pandas/2.3.3/)
 [![plotly](https://img.shields.io/badge/plotly-6.3.1-lightgrey)](https://pypi.org/project/plotly/6.3.1/)
-[![pyarrow](https://img.shields.io/badge/pyarrow-21.0.0-purple)](https://pypi.org/project/pyarrow/21.0.0/)
+[![pyarrow](https://img.shields.io/badge/pyarrow-22.0.0-purple)](https://pypi.org/project/pyarrow/22.0.0/)
 [![scipy](https://img.shields.io/badge/scipy-1.16.2-darkblue)](https://pypi.org/project/scipy/1.16.2/)
-[![sqlalchemy](https://img.shields.io/badge/sqlalchemy-2.0.43-green)](https://pypi.org/project/SQLAlchemy/2.0.43/)
+[![sqlalchemy](https://img.shields.io/badge/sqlalchemy-2.0.44-green)](https://pypi.org/project/SQLAlchemy/2.0.44/)
 [![tables](https://img.shields.io/badge/tables-3.10.2-red)](https://pypi.org/project/tables/3.10.2/)
-<!-- [![ipywidgets](https://img.shields.io/badge/ipywidgets-8.1.5-ff6347)](https://pypi.org/project/ipywidgets/8.1.5/) -->
 
 ### 📦 Installing Dependencies
 
