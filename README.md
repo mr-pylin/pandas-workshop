@@ -18,6 +18,8 @@ An essential guide to mastering data manipulation with Pandas, covering core to 
 1. [**Data Structures**](./code/02-data-structures.ipynb)
 1. [**Data Input and Output**](./code/03-data-io.ipynb)
 1. [**Indexing and Selection**](./code/04-indexing-selection.ipynb)
+1. [**Data Cleaning and Transformation**](./code/05-data-cleaning.ipynb)
+1. [**Aggregation and Grouping**](./code/06-aggregation.ipynb)
 
 ## 📋 Prerequisites
 
