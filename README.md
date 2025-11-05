@@ -20,6 +20,7 @@ An essential guide to mastering data manipulation with Pandas, covering core to 
 1. [**Indexing and Selection**](./code/04-indexing-selection.ipynb)
 1. [**Data Cleaning and Transformation**](./code/05-data-cleaning.ipynb)
 1. [**Aggregation and Grouping**](./code/06-aggregation.ipynb)
+1. [**Merging, Joining, and Reshaping**](./code/07-combining-data.ipynb)
 
 ## 📋 Prerequisites
 
