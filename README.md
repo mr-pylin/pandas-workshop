@@ -1,7 +1,7 @@
 # pandas-workshop
 
 [![License](https://img.shields.io/github/license/mr-pylin/pandas-workshop?color=blue)](https://github.com/mr-pylin/pandas-workshop/blob/main/LICENSE)
-[![Python Version](https://img.shields.io/badge/Python-3.13.9-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3137/)
+[![Python Version](https://img.shields.io/badge/Python-3.13.9-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3139/)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/0843bff4f1494209a528380dca88999a)](https://app.codacy.com/gh/mr-pylin/pandas-workshop/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Code Style](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/psf/black)
 ![Repo Size](https://img.shields.io/github/repo-size/mr-pylin/pandas-workshop?color=lightblue)
